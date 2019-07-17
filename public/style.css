@@ -20,3 +20,40 @@ color: white;
 	font-size: 5em;
 	text-align: center;
 }
+
+.title-bottom {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	text-align: center;
+	top: 55%;
+	left: 32%;
+	position: absolute;
+	transform: translateY(-50%)
+}
+
+.title-social {
+	font-size: 2em;
+	text-align: center;
+	top: 75%;
+	left: 37%;
+	position: absolute;
+	transform: translateY(-50%)
+}
+
+.font-icon {
+	margin-right: 20px;
+}
+
+.title-conncet {
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	top: 65%;
+	left: 37%;
+	position: absolute;
+	transform: translateY(-50%)
+}
+
+.social-icon-link {
+	color: white;
+}
