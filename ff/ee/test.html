@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ggg</title>
+	<script type="text/javascript">
+		console.log("LLLLL", window.sessionStorage.getItem('test'))
+		var isLoaded = window.sessionStorage.getItem('loaded')
+		if(isLoaded){
+			 sessionStorage.clear();
+			 window.location.replace("/test2.html")
+		}else{
+			sessionStorage.setItem("loaded", true);
+		}
+	</script>
+</head>
+<body>
+	hello
+</body>
+</html>
